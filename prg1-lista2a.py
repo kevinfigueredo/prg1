@@ -60,7 +60,7 @@ def acrescimo_nota_bb(nota_sozinho, nota_com_ajuda):
 
 def ano_bissexto(ano):
     """ Determine se um ano é bissexto"""
-    return (ano % 4 == 0)
+    return (ano % 4 == 0 and ano % 100 != 0) or (ano % 400 == 0)
 
 def determina_ultimo_dia_mes(mes, ano):
     """
