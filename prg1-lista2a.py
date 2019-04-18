@@ -16,7 +16,7 @@ def excesso_peso_peixes(peso_peixes_kg, peso_limite):
     """ Recebe o peso dos peixes pescados, e o limite legal e devolve 
     o peso em excesso, ou zero se não houver"""
 
-
+    return 0
 
 def salario(dinheiro_horas, horas_mensais):
     """ Recebe quanto ganha por hora e quantas horas trabalho ao mês,
@@ -60,7 +60,7 @@ def acrescimo_nota_bb(nota_sozinho, nota_com_ajuda):
 
 def ano_bissexto(ano):
     """ Determine se um ano é bissexto"""
-
+    return (ano % 4 == 0)
 
 def determina_ultimo_dia_mes(mes, ano):
     """
